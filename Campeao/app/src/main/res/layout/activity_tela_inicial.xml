@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaInicial">
+
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="Supercampeões\n- Copa do Mundo -"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/Brasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/brasil"
+        android:onClick="clicar"
+        />
+
+    <ImageButton
+        android:id="@+id/Alemanha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/alemanha"
+        android:onClick="clicar"
+        />
+
+    <ImageButton
+        android:id="@+id/Italia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Brasil"
+        android:layout_alignLeft="@+id/Brasil"
+        android:layout_marginTop="100dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/italia"
+        android:onClick="clicar"
+        />
+
+    <ImageButton
+        android:id="@+id/Argentina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Alemanha"
+        android:layout_alignLeft="@+id/Alemanha"
+        android:layout_marginTop="100dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/argentina"
+        android:onClick="clicar"
+        />
+
+
+</RelativeLayout>
