@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec07b01-d783-4f78-a769-ee9c4baa3222" name="Changes" comment="" />
+    <list default="true" id="e0cecd05-c4e4-4b37-b6ee-961b3b170b0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,15 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ProjectId" id="2EsPcfQy2KkGFr8HBfih8ekihRf" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2EsPxnSX2XSuEmCtDPFGcCnhGqZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +41,11 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.889978705">
+      <recent name="com.example.quizz" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -96,11 +109,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dec07b01-d783-4f78-a769-ee9c4baa3222" name="Changes" comment="" />
-      <created>1663381399738</created>
+      <changelist id="e0cecd05-c4e4-4b37-b6ee-961b3b170b0d" name="Changes" comment="" />
+      <created>1663381567918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663381399738</updated>
+      <updated>1663381567918</updated>
     </task>
     <servers />
   </component>
