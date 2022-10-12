@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Estagio</string>
+    <string-array name="semestres">
+        <item>Semestre 2</item>
+        <item>Semestre 3</item>
+        <item>Semestre 4</item>
+    </string-array>
 </resources>
