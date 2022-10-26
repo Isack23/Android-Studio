@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        android:title="Ajuda"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/video1"
+        android:title="Video 1"
+
+        />
+    <item
+        android:id="@+id/video2"
+        android:title="Video 2"
+        />
+    <item
+        android:id="@+id/aparencia"
+        android:title="Aparencia"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/dark"
+                android:title="Dark"
+            />
+            <item
+            android:id="@+id/light"
+            android:title="Ligth"
+            />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/sair"
+        android:title="Sair"
+        />
+
+</menu>
