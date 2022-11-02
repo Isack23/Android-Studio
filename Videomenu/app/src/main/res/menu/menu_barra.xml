@@ -28,7 +28,7 @@
             />
             <item
             android:id="@+id/light"
-            android:title="Ligth"
+            android:title="Light"
             />
         </menu>
     </item>
@@ -37,5 +37,4 @@
         android:id="@+id/sair"
         android:title="Sair"
         />
-
 </menu>
