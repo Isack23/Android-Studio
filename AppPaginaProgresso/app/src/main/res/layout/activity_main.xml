@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeria da Informática!"
+        android:textColor="@color/black"
+        android:background="#45f"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="24dp"
+
+    />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/titulo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foto"
+        android:progressBackgroundTint="#054F77"
+        android:progressTint="#4169E1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progresso"
+        android:text="Volar"
+        android:layout_marginLeft="80dp"
+        />
+
+
+    <Button
+        android:id="@+id/avançar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/voltar"
+        android:text="Avançar"
+        android:layout_marginRight="80dp"
+        />
+</RelativeLayout>
